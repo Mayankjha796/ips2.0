@@ -1,0 +1,22 @@
+# HTID:14103756: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+php_flag output_buffering on
+php_flag session.auto_start on
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:14103756:
+RewriteEngine on  
+  
+RewriteRule ^ABOUT  firstpage.php [NC,L]
+RewriteRule ^DETAILS  userdash1.php [NC,L]
+RewriteRule ^INSTRUCTION  myfile.php [NC,L]
+
+
+
+
+
+
+
+
+
+
+
+

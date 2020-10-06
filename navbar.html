@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="Teacher.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Teacher's Dashboard</title>
+    <style>
+      .bg
+      {
+        background:linear-gradient(#f3a183,#ec6f66);;
+      }
+    .fa {
+      padding: 20px;
+      font-size: 18px;
+      width: 50px;
+      height: 50px;
+
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+    }
+    
+
+    .fa:hover {
+      color: red;
+    }
+
+
+
+    .fa-facebook {
+
+      color: white;
+    }
+
+    .fa-twitter {
+
+      color: white;
+    }
+
+    .fa-google {
+
+      color: white;
+    }
+
+    .fa-linkedin {
+
+      color: white;
+    }
+
+    .fa-pinterest {
+
+      color: white;
+    }
+    .navbar{
+      background: linear-gradient(#f3a183,#ec6f66);
+      height: 100px;
+
+    }
+    .nav-link{
+      color: navy;
+      font-weight: bold;
+     
+    }
+    
+  </style>
+</head>
+<body>
+
+  <!-- top bar opened -->
+  <div class="row bg">
+    <div class="col-lg-6 text-center my-auto">
+      <h1 style="color: white;">My First Bootstrap Page  </h1>
+    </div>
+    <div class="col-lg-6 text-right">
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-google"></a>
+      <a href="#" class="fa fa-linkedin"></a>
+      <a href="#" class="fa fa-pinterest"></a>
+    </div>
+  </div>
+
+  <!-- topbar closed -->
+  <!-- navbar opened -->
+  <nav class="navbar navbar-expand-md sticky-top mt-2">
+    <a class="navbar-brand m-auto float-left" href="#"><img src="logo.jpg" alt="logo" style="height: 80px; width: 80px; border-radius: 50%;"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav text-white mr-auto " style="margin-left: 4px;">
+        <li class="nav-item active ml-2">
+          <a class="nav-link btn " href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  btn  ml-2" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  btn  ml-2" href="#">Contact Us</a>
+        </li>
+        
+        
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+<!-- navbar closed -->
+</body>
+</html>
